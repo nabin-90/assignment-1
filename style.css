@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    /* vertical-align: middle; */
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    /* display: inline-block; */
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    max-width: 1200px;
+    margin: auto;
+}
+.common_btn{
+    padding: 12px 40px;
+    background-color: #1D4ED8;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--inter-font);
+    color: white;
+    border: none;
+}
+:root{
+    --arimo-font: "Arimo", sans-serif;
+    --inter-font: "Inter", sans-serif;
+}
+/* ====================
+Common Css END
+==================== */
+/* ====================
+Navbar Css Start
+==================== */
+.nav_parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+.nav_links ul{
+    display: flex;
+    gap: 24px;
+}
+.nav_links ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--inter-font);
+    color: #575757;
+}
+/* ====================
+Navbar Css END
+==================== */
+/* ====================
+    Hero Css Start
+==================== */
+#hero{
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero_parrent{
+    padding: 135px 0 80px;
+    text-align: center;
+}
+.hero_parrent h2{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: var(--inter-font);
+    color: #FFFFFF;
+}
+.hero_parrent p{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: var(--inter-font);
+    color: #FFFFFF;
+    padding: 16px 0 278px;
+    
+}
+.hero_parrent .common_btn{
+    padding: 25px 63px;
+}
+/* ====================
+    Hero Css END
+==================== */
+/* ====================
+Common Css Start
+==================== */
+/* ====================
+Common Css END
+==================== */
+/* ====================
+Common Css Start
+==================== */
+/* ====================
+Common Css END
+==================== */
+/* ====================
+Common Css Start
+==================== */
+/* ====================
+Common Css END
+==================== */
