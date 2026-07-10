@@ -1,50 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-img{
-    width: 100%;
-    max-width: 100%;
-    vertical-align: middle;
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
 }
-ul,ol{
-    list-style: none;
+ul,
+ol {
+  list-style: none;
 }
-a{
-    display: inline-block;
-    text-decoration: none;
+a {
+  display: inline-block;
+  text-decoration: none;
 }
-.container{
-    width: 1200px;
-    max-width: 1200px;
-    margin: 0 auto;
+.container {
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.common_btn{
-    padding: 12px 40px;
-    background-color: #1D4ED8;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: 700;
-    font-family: var(--inter-font);
-    color: white;
-    border: none;
+.common_btn {
+  padding: 12px 40px;
+  background-color: #1d4ed8;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--inter-font);
+  color: white;
+  border: none;
 }
-.outline_btn{
-    width: 100%;
-    padding: 11px 0;
-    background-color: white;
-    border-radius: 8px;
-    font-size: 14px;
-    font-weight: 600;
-    font-family: var(--inter-font);
-    color: #2563EB;
-    border: 1px solid #2563EB;
+.outline_btn {
+  width: 100%;
+  padding: 11px 0;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--inter-font);
+  color: #2563eb;
+  border: 1px solid #2563eb;
 }
-:root{
-    --arimo-font: "Arimo", sans-serif;
-    --inter-font: "Inter", sans-serif;
+:root {
+  --arimo-font: "Arimo", sans-serif;
+  --inter-font: "Inter", sans-serif;
 }
 /* ====================
 Common Css END
@@ -52,21 +54,21 @@ Common Css END
 /* ====================
 Navbar Css Start
 ==================== */
-.nav_parent{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px 0;
+.nav_parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
 }
-.nav_links ul{
-    display: flex;
-    gap: 24px;
+.nav_links ul {
+  display: flex;
+  gap: 24px;
 }
-.nav_links ul li a{
-    font-size: 16px;
-    font-weight: 400;
-    font-family: var(--inter-font);
-    color: #575757;
+.nav_links ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--inter-font);
+  color: #575757;
 }
 /* ====================
 Navbar Css END
@@ -74,45 +76,49 @@ Navbar Css END
 /* ====================
     Hero Css Start
 ==================== */
-#hero{
-    background-image: url(./images/banner.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    z-index: 1;
+#hero {
+  background-image: url(./images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
 }
-#hero::before{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg,rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0) 70%);
-    z-index: -1;
+#hero::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.6) 30%,
+    rgba(0, 0, 0, 0) 70%
+  );
+  z-index: -1;
 }
-.hero_parent{
-    padding: 135px 0 80px;
-    text-align: center;
+.hero_parent {
+  padding: 135px 0 80px;
+  text-align: center;
 }
-.hero_parent h2{
-    font-size: 80px;
-    font-weight: 700;
-    font-family: var(--inter-font);
-    color: #FFFFFF;
+.hero_parent h2 {
+  font-size: 80px;
+  font-weight: 700;
+  font-family: var(--inter-font);
+  color: #ffffff;
 }
-.hero_parent p{
-    font-size: 22px;
-    font-weight: 400;
-    font-family: var(--inter-font);
-    color: #FFFFFF;
-    margin: 16px auto 278px;
-    max-width: 830px;
-    width: 100%;
+.hero_parent p {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: var(--inter-font);
+  color: #ffffff;
+  margin: 16px auto 278px;
+  max-width: 830px;
+  width: 100%;
 }
-.hero_parent .common_btn{
-    padding: 25px 63px;
+.hero_parent .common_btn {
+  padding: 25px 63px;
 }
 /* ====================
     Hero Css END
@@ -120,48 +126,48 @@ Navbar Css END
 /* ====================
     Speakers Start
 ==================== */
-#speakers{
-    padding: 80px 60px 135px;
+#speakers {
+  padding: 80px 60px 135px;
 }
-.speakers_parent h2{
-    font-size: 56px;
-    font-weight: 700;
-    font-family: var(--inter-font);
-    color: #000102;
-    text-align: center;
-    padding-bottom: 55px;
+.speakers_parent h2 {
+  font-size: 56px;
+  font-weight: 700;
+  font-family: var(--inter-font);
+  color: #000102;
+  text-align: center;
+  padding-bottom: 55px;
 }
-.speakers_card{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 33px;
+.speakers_card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 33px;
 }
-.speakers_card .card{
-    border: 1px solid #E5E7EB;
-    border-radius: 12px;
-    overflow: hidden;
+.speakers_card .card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
 }
-.speakers_card .card_txt{
-    padding: 24px;
+.speakers_card .card_txt {
+  padding: 24px;
 }
-.speakers_card .card_txt h3{
-    font-size: 12px;
-    font-weight: 600;
-    font-family: var(--inter-font);
-    color: #2563EB;
+.speakers_card .card_txt h3 {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--inter-font);
+  color: #2563eb;
 }
-.speakers_card .card_txt h4{
-    font-size: 20px;
-    font-weight: 700;
-    font-family: var(--inter-font);
-    color: #0D1B2A;
-    padding: 8px 0;
+.speakers_card .card_txt h4 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--inter-font);
+  color: #0d1b2a;
+  padding: 8px 0;
 }
-.speakers_card .card_txt p{
-    font-size: 14px;
-    font-weight: 400;
-    font-family: var(--inter-font);
-    color: #575757;
+.speakers_card .card_txt p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--inter-font);
+  color: #575757;
 }
 /* ====================
     Speakers END
@@ -169,110 +175,165 @@ Navbar Css END
 /* ====================
     Pricing Start
 ==================== */
-.pricing_parent{
-    text-align: center;
+.pricing_parent {
+  text-align: center;
 }
-.pricing_parent h2{
-    font-size: 48px;
-    font-weight: 700;
-    font-family: var(--inter-font);
-    color: #0D1B2A;
+.pricing_parent h2 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: var(--inter-font);
+  color: #0d1b2a;
 }
-.pricing_parent p{
-    font-size: 16px;
-    font-weight: 400;
-    font-family: var(--inter-font);
-    color: #575757;
-    padding-top: 12px;
+.pricing_parent p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--inter-font);
+  color: #575757;
+  padding-top: 12px;
 }
-.pricing_cards{
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    padding: 48px 0 80px;
+.pricing_cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding: 48px 0 80px;
 }
-.pricing_cards .card{
-    flex: 1;
-    border-radius: 12px;
-    border: 1px solid #E5E7EB;
-    padding: 32px;
-    text-align: left;
+.pricing_cards .card {
+  flex: 1;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  padding: 32px;
+  text-align: left;
 }
-.pricing_cards .card h3{
-    font-size: 13px;
-    font-weight: 600;
-    font-family: var(--inter-font);
-    color: #888888;
+.pricing_cards .card h3 {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: var(--inter-font);
+  color: #888888;
 }
-.pricing_cards .card h4{
-    font-size: 44px;
-    font-weight: 700;
-    font-family: var(--inter-font);
-    color: #0D1B2A;
-    padding-top: 8px;
+.pricing_cards .card h4 {
+  font-size: 44px;
+  font-weight: 700;
+  font-family: var(--inter-font);
+  color: #0d1b2a;
+  padding-top: 8px;
 }
-.pricing_cards .card h5{
-    font-size: 13px;
-    font-weight: 400;
-    font-family: var(--inter-font);
-    color: #888888;
-    border-bottom: 1px solid #E5E7EB;
-    padding-bottom: 20px;
-}
-
-
-.pricing_cards .card ul{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-top: 20px;
-}
-.pricing_cards .card ul li{
-    font-size: 14px;
-    font-weight: 400;
-    font-family: var(--inter-font);
-    color: #333333;
-}
-.pricing_cards .card ul li span{
-    color: #2563EB;
-    padding-right: 8px;
+.pricing_cards .card h5 {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: var(--inter-font);
+  color: #888888;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 20px;
 }
 
-.pricing_cards .card button{
-    margin-top: 20px;
+.pricing_cards .card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 20px;
+}
+.pricing_cards .card ul li {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--inter-font);
+  color: #333333;
+}
+.pricing_cards .card ul li span {
+  color: #2563eb;
+  padding-right: 8px;
+}
+
+.pricing_cards .card button {
+  margin-top: 20px;
 }
 
 /* card_2  */
-.pricing_cards .card_2{
-    background-color: #0D1B2A;
+.pricing_cards .card_2 {
+  background-color: #0d1b2a;
 }
-.pricing_cards .card_2 h3{
-    color: #93C5FD;
+.pricing_cards .card_2 h3 {
+  color: #93c5fd;
 }
-.pricing_cards .card_2 h4{
-    color: white;
+.pricing_cards .card_2 h4 {
+  color: white;
 }
-.pricing_cards .card_2 h5{
-    color: rgba(255, 255, 255, 0.50);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+.pricing_cards .card_2 h5 {
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-.pricing_cards .card_2 ul li{
-    color: rgba(255, 255, 255, 0.80);
+.pricing_cards .card_2 ul li {
+  color: rgba(255, 255, 255, 0.8);
 }
-.pricing_cards .card_2 .common_btn{
-    width: 100%;
-    padding: 11px 0;
-    font-size: 14px;
-    font-weight: 600;
+.pricing_cards .card_2 .common_btn {
+  width: 100%;
+  padding: 11px 0;
+  font-size: 14px;
+  font-weight: 600;
 }
 /* ====================
     Pricing END
 ==================== */
 /* ====================
-Ai Section Css Start
+  Highlights Css Start
 ==================== */
+#highlights {
+  padding-top: 50px 0 130px;
+}
+.highlights_heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.highlights_heading h2 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: var(--inter-font);
+  color: #0D1B2A;
+  margin-bottom: 15px;
+}
+.highlights_heading p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--inter-font);
+  color: #575757;
+}
+.stats_parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.stat_card {
+  background: #fff;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  padding: 35px 25px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.stat_card:hover {
+  border: 1px solid #2563EB;
+  box-shadow: 0 15px 35px rgba(37, 99, 235, 0.15);
+}
+.stat_card i {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.stat_card h3 {
+  font-size: 30px;
+  color: #000102;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+.stat_card:hover h3 {
+  color: #2563EB;
+}
+.stat_card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #888888;
+}
 /* ====================
-Ai Section Css END
+  Highlights Css END
 ==================== */
 /* ====================
 Common Css Start
