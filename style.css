@@ -19,7 +19,7 @@ a{
 .container{
     width: 1200px;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
 }
 .common_btn{
     padding: 12px 40px;
@@ -30,6 +30,17 @@ a{
     font-family: var(--inter-font);
     color: white;
     border: none;
+}
+.outline_btn{
+    width: 100%;
+    padding: 11px 0;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--inter-font);
+    color: #2563EB;
+    border: 1px solid #2563EB;
 }
 :root{
     --arimo-font: "Arimo", sans-serif;
@@ -81,17 +92,17 @@ Navbar Css END
     background: linear-gradient(90deg,rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0) 70%);
     z-index: -1;
 }
-.hero_parrent{
+.hero_parent{
     padding: 135px 0 80px;
     text-align: center;
 }
-.hero_parrent h2{
+.hero_parent h2{
     font-size: 80px;
     font-weight: 700;
     font-family: var(--inter-font);
     color: #FFFFFF;
 }
-.hero_parrent p{
+.hero_parent p{
     font-size: 22px;
     font-weight: 400;
     font-family: var(--inter-font);
@@ -100,7 +111,7 @@ Navbar Css END
     max-width: 830px;
     width: 100%;
 }
-.hero_parrent .common_btn{
+.hero_parent .common_btn{
     padding: 25px 63px;
 }
 /* ====================
@@ -125,28 +136,28 @@ Navbar Css END
     grid-template-columns: repeat(2, 1fr);
     gap: 33px;
 }
-.card{
+.speakers_card .card{
     border: 1px solid #E5E7EB;
     border-radius: 12px;
     overflow: hidden;
 }
-.card_txt{
+.speakers_card .card_txt{
     padding: 24px;
 }
-.card_txt h3{
+.speakers_card .card_txt h3{
     font-size: 12px;
     font-weight: 600;
     font-family: var(--inter-font);
     color: #2563EB;
 }
-.card_txt h4{
+.speakers_card .card_txt h4{
     font-size: 20px;
     font-weight: 700;
     font-family: var(--inter-font);
     color: #0D1B2A;
     padding: 8px 0;
 }
-.card_txt p{
+.speakers_card .card_txt p{
     font-size: 14px;
     font-weight: 400;
     font-family: var(--inter-font);
@@ -154,6 +165,114 @@ Navbar Css END
 }
 /* ====================
     Speakers END
+==================== */
+/* ====================
+    Pricing Start
+==================== */
+.pricing_parent{
+    text-align: center;
+}
+.pricing_parent h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: var(--inter-font);
+    color: #0D1B2A;
+}
+.pricing_parent p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--inter-font);
+    color: #575757;
+    padding-top: 12px;
+}
+.pricing_cards{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding: 48px 0 80px;
+}
+.pricing_cards .card{
+    flex: 1;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+    padding: 32px;
+    text-align: left;
+}
+.pricing_cards .card h3{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: var(--inter-font);
+    color: #888888;
+}
+.pricing_cards .card h4{
+    font-size: 44px;
+    font-weight: 700;
+    font-family: var(--inter-font);
+    color: #0D1B2A;
+    padding-top: 8px;
+}
+.pricing_cards .card h5{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: var(--inter-font);
+    color: #888888;
+    border-bottom: 1px solid #E5E7EB;
+    padding-bottom: 20px;
+}
+
+
+.pricing_cards .card ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+.pricing_cards .card ul li{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--inter-font);
+    color: #333333;
+}
+.pricing_cards .card ul li span{
+    color: #2563EB;
+    padding-right: 8px;
+}
+
+.pricing_cards .card button{
+    margin-top: 20px;
+}
+
+/* card_2  */
+.pricing_cards .card_2{
+    background-color: #0D1B2A;
+}
+.pricing_cards .card_2 h3{
+    color: #93C5FD;
+}
+.pricing_cards .card_2 h4{
+    color: white;
+}
+.pricing_cards .card_2 h5{
+    color: rgba(255, 255, 255, 0.50);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+.pricing_cards .card_2 ul li{
+    color: rgba(255, 255, 255, 0.80);
+}
+.pricing_cards .card_2 .common_btn{
+    width: 100%;
+    padding: 11px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+/* ====================
+    Pricing END
+==================== */
+/* ====================
+Ai Section Css Start
+==================== */
+/* ====================
+Ai Section Css END
 ==================== */
 /* ====================
 Common Css Start
