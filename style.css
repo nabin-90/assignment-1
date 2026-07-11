@@ -25,7 +25,7 @@ a {
 }
 .common_btn {
   padding: 12px 40px;
-  background-color: #1d4ed8;
+  background-color: #1D4ED8;
   border-radius: 10px;
   font-size: 16px;
   font-weight: 700;
@@ -42,8 +42,8 @@ a {
   font-size: 14px;
   font-weight: 600;
   font-family: var(--inter-font);
-  color: #2563eb;
-  border: 1px solid #2563eb;
+  color: #2563EB;
+  border: 1px solid #2563EB;
   cursor: pointer;
 }
 :root {
@@ -51,10 +51,10 @@ a {
   --inter-font: "Inter", sans-serif;
 }
 /* ====================
-Common Css END
+    Common Css END
 ==================== */
 /* ====================
-Navbar Css Start
+    Navbar Css Start
 ==================== */
 .nav_parent {
   display: flex;
@@ -74,10 +74,10 @@ Navbar Css Start
   transition: 0.3s;
 }
 .nav_links ul li a:hover {
-  color: #2563eb;
+  color: #2563EB;
 }
 /* ====================
-Navbar Css END
+    Navbar Css END
 ==================== */
 /* ====================
     Hero Css Start
@@ -149,7 +149,7 @@ Navbar Css END
   gap: 33px;
 }
 .speakers_card .card {
-  border: 1px solid #e5e7eb;
+  border: 1px solid #E5E7EB;
   border-radius: 12px;
   overflow: hidden;
 }
@@ -160,13 +160,13 @@ Navbar Css END
   font-size: 12px;
   font-weight: 600;
   font-family: var(--inter-font);
-  color: #2563eb;
+  color: #2563EB;
 }
 .speakers_card .card_txt h4 {
   font-size: 20px;
   font-weight: 700;
   font-family: var(--inter-font);
-  color: #0d1b2a;
+  color: #0D1B2A;
   padding: 8px 0;
 }
 .speakers_card .card_txt p {
@@ -188,7 +188,7 @@ Navbar Css END
   font-size: 48px;
   font-weight: 700;
   font-family: var(--inter-font);
-  color: #0d1b2a;
+  color: #0D1B2A;
 }
 .pricing_parent p {
   font-size: 16px;
@@ -206,7 +206,7 @@ Navbar Css END
 .pricing_cards .card {
   flex: 1;
   border-radius: 12px;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #E5E7EB;
   padding: 32px;
   text-align: left;
 }
@@ -220,7 +220,7 @@ Navbar Css END
   font-size: 44px;
   font-weight: 700;
   font-family: var(--inter-font);
-  color: #0d1b2a;
+  color: #0D1B2A;
   padding-top: 8px;
 }
 .pricing_cards .card h5 {
@@ -228,7 +228,7 @@ Navbar Css END
   font-weight: 400;
   font-family: var(--inter-font);
   color: #888888;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid #E5E7EB;
   padding-bottom: 20px;
 }
 
@@ -245,7 +245,7 @@ Navbar Css END
   color: #333333;
 }
 .pricing_cards .card ul li span {
-  color: #2563eb;
+  color: #2563EB;
   padding-right: 8px;
 }
 
@@ -255,10 +255,10 @@ Navbar Css END
 
 /* card_2  */
 .pricing_cards .card_2 {
-  background-color: #0d1b2a;
+  background-color: #0D1B2A;
 }
 .pricing_cards .card_2 h3 {
-  color: #93c5fd;
+  color: #93C5FD;
 }
 .pricing_cards .card_2 h4 {
   color: white;
@@ -293,7 +293,7 @@ Navbar Css END
   font-size: 48px;
   font-weight: 700;
   font-family: var(--inter-font);
-  color: #0d1b2a;
+  color: #0D1B2A;
   margin-bottom: 15px;
 }
 .highlights_heading p {
@@ -309,7 +309,7 @@ Navbar Css END
 }
 .stat_card {
   background: #fff;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #E5E7EB;
   border-radius: 12px;
   padding: 35px 25px;
   text-align: center;
@@ -318,7 +318,7 @@ Navbar Css END
 }
 .stat_card:hover {
   transform: translateY(-8px);
-  border: 1px solid #2563eb;
+  border: 1px solid #2563EB;
   box-shadow: 0 15px 35px rgba(37, 99, 235, 0.15);
 }
 .stat_card i {
@@ -332,7 +332,7 @@ Navbar Css END
   transition: 0.3s;
 }
 .stat_card:hover h3 {
-  color: #2563eb;
+  color: #2563EB;
 }
 .stat_card p {
   font-size: 16px;
@@ -347,7 +347,7 @@ Navbar Css END
 ==================== */
 #footer {
   padding: 60px 0 80px;
-  background-color: #0d1b2a;
+  background-color: #0D1B2A;
 }
 /* footer top */
 .footer_top {
@@ -384,11 +384,11 @@ Navbar Css END
   gap: 15px;
 }
 .social_links a {
-  color: #4b5563;
+  color: #4B5563;
   font-size: 20px;
   width: 44px;
   height: 44px;
-  border: 1px solid #d1d5db;
+  border: 1px solid #D1D5DB;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -396,9 +396,9 @@ Navbar Css END
   transition: 0.3s;
 }
 .social_links a:hover {
-  background: #2563eb;
+  background: #2563EB;
   color: #fff;
-  border-color: #2563eb;
+  border-color: #2563EB;
   transform: translateY(-4px);
 }
 /* footer middle */
@@ -418,14 +418,14 @@ Navbar Css END
   transition: 0.3s;
 }
 .footer_details a:hover {
-  color: #2563eb;
+  color: #2563EB;
 }
 .footer_details p {
   color: rgba(255, 255, 255, 0.4);
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .footer_details i {
-  color: #2563eb;
+  color: #2563EB;
   width: 24px;
 }
 /* divider */
@@ -455,7 +455,7 @@ hr {
   transition: 0.3s;
 }
 .footer_bottom .footer_links a:hover {
-  color: #2563eb;
+  color: #2563EB;
 }
 /* ====================
      Footer END
